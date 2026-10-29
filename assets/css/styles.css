@@ -241,7 +241,7 @@ a { color: inherit; }
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: clamp(28px, 4vw, 44px) clamp(24px, 4vw, 48px);
+  gap: clamp(28px, 4vw, 44px) clamp(24px, 3vw, 36px);
   max-width: var(--container);
   margin: 0 auto;
   padding: 0 var(--gutter);
@@ -252,7 +252,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: clamp(120px, 13vw, 164px);   /* five across on desktop, as in the mockup */
+  width: clamp(110px, 11vw, 140px);   /* all six on one row on desktop */
   height: 76px;
 }
 .logo-wall img {
